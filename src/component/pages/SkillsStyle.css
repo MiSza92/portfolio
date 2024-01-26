@@ -1,0 +1,15 @@
+.skillsContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: rgba(241, 255, 44, 0.69);
+}
+
+@media (max-width: 900px) {
+  .skillsContainer {
+    flex-direction: column-reverse;
+    padding-top: 5vh;
+  }
+}

@@ -1,0 +1,7 @@
+.footerContainer {
+  height: 5vh;
+  background-color: red;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

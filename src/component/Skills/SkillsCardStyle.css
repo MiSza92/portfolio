@@ -1,0 +1,98 @@
+.grid {
+  margin-left: 5vw;
+  width: 100%;
+  padding: 0 2vw;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "HTML . ."
+    "css  Bootstrap  Tailwind"
+    "JavaScript TypeScript . "
+    "React Next ."
+    "MongoDB Express Node";
+
+  height: 70%;
+  grid-column-gap: 1vw;
+  grid-row-gap: 1vh;
+
+  animation: slideRight 2s;
+}
+@keyframes slideRight {
+  0% {
+    transform: translateX(80vw) skewX(53deg);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: skewX(0deg);
+  }
+}
+.grid img {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+  border: 0.4vh solid white;
+  padding: 1vh;
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+.active {
+  background: white !important;
+}
+.grid img {
+  height: 100%;
+}
+.grid img:hover {
+  background: rgba(255, 255, 255);
+}
+
+.HTML {
+  grid-area: HTML;
+}
+.css {
+  grid-area: css;
+}
+.Bootstrap {
+  grid-area: Bootstrap;
+}
+.Tailwind {
+  grid-area: Tailwind;
+}
+
+.JavaScript {
+  grid-area: JavaScript;
+}
+.TypeScript {
+  grid-area: TypeScript;
+}
+.React {
+  grid-area: React;
+}
+.Next {
+  grid-area: Next;
+}
+.MongoDB {
+  grid-area: MongoDB;
+}
+.Express {
+  grid-area: Express;
+}
+
+.Node {
+  grid-area: Node;
+}
+@media (max-width: 900px) {
+  .grid {
+    display: flex;
+    margin: 2vh 0;
+    flex-wrap: wrap;
+  }
+  .grid img {
+    height: 10vh;
+    width: 25%;
+  }
+}

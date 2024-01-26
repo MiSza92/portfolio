@@ -1,0 +1,61 @@
+{
+    "skills": [
+      {
+        "name": "HTML",
+        "header": "HTML - HyperText Markup Language",
+        "text": "HTML is the standard markup language for creating web pages. It describes the structure of a web page semantically and consists of a series of elements that define different parts of a document.",
+    "url":  "https://cdn.worldvectorlogo.com/logos/html-1.svg"
+    },
+      {
+        "name": "css",
+        "header": "CSS - Cascading Style Sheets",
+        "text": "CSS is a style sheet language used for describing the look and formatting of a document written in HTML. It controls the visual presentation of a web page, including layout, colors, and fonts.",
+    "url":  "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png"   },
+      {
+        "name": "Bootstrap",
+        "header": "Bootstrap CSS",
+        "text": "Bootstrap is a popular CSS framework that simplifies the process of building responsive and mobile-first websites. It includes a set of predefined styles and components that can be easily customized.",
+    "url":  "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"   },
+      {
+        "name": "Tailwind",
+        "header": "Tailwind CSS",
+        "text": "Tailwind CSS is a utility-first CSS framework that provides low-level utility classes to build designs directly in your markup. It offers a highly customizable and flexible approach to styling web applications.",
+    "url":  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/320px-Tailwind_CSS_Logo.svg.png"   },
+    {
+        "name": "JavaScript",
+        "header": "JavaScript",
+        "text": "JavaScript is a high-level, interpreted programming language. It is the scripting language for web pages and provides dynamic and interactive content. JavaScript is widely used for client-side development in web browsers.",
+        "url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/768px-JavaScript-logo.png"    },
+      {
+        "name": "TypeScript",
+        "header": "TypeScript",
+        "text": "TypeScript is a superset of JavaScript that adds static typing to the language. It enhances code maintainability and developer productivity by catching errors during development. TypeScript is often used in large-scale applications.",
+        "url":"https://cdn.worldvectorlogo.com/logos/typescript-2.svg"   },
+      {
+        "name": "React",
+        "header": "React",
+        "text": "React is a JavaScript library for building user interfaces. It allows developers to create reusable UI components and build complex UIs efficiently. React is widely used for building single-page applications (SPAs) and is maintained by Facebook.",
+     "url":"https://png2.cleanpng.com/sh/5e75e68754da7575f259bc371efb5a4d/L0KzQYm3VMExN6F7fZH0aYP2gLBuTgJmaZR5RdxqdnH2c8PwkQQuepZ4iNH3c3n5dX7AhfIubJZ4gdl3LXfshLn8gr1idph6RdlydHj4cn68gfNkaZQ3TaJsZHG8RXA7VMUzQGM4UKMAMkO2RoOBVcMxPWM8RuJ3Zx==/kisspng-react-javascript-responsive-web-design-github-angu-github-5accac250cda95.4452823815233628530527.png" },
+      {
+        "name": "Next",
+        "header": "Next.js",
+        "text": "Next.js is a React framework for building server-rendered React applications. It provides a great developer experience with features like automatic code splitting, server-side rendering, and a powerful plugin system.",
+     "url":"https://cdn.worldvectorlogo.com/logos/next-js.svg" },
+      {
+        "name": "MongoDB",
+        "header": "MongoDB",
+        "text": "MongoDB is a NoSQL database that stores data in flexible, JSON-like documents. It is designed for scalability, flexibility, and high performance. MongoDB is commonly used in modern web development for handling large amounts of data.",
+     "url":"https://infinapps.com/wp-content/uploads/2018/10/mongodb-logo.png" },
+      {
+        "name": "Express",
+        "header": "Express.js",
+        "text": "Express.js is a minimal and flexible Node.js web application framework. It provides a robust set of features for web and mobile applications. Express.js is widely used for building RESTful APIs and web applications.",
+     "url":"https://png2.cleanpng.com/sh/281bab4a2012b9b18ec988cbd96119a7/L0KzQYm3VsA1N5DnjpH0aYP2gLBuTgdmal5pfehubHBzfbb1lL1mgKF3feV8LXr2PbvolvF0a6NuiOY2c3BphMjokvUubqNmRdh7YX3oPcj2kvsuPZM2TaMAM3S1RLW6hsYvQWI4S6M8M0C0RYOBUcA5O2UASac5OT7zfri=/kisspng-web-development-express-js-javascript-software-fra-frame-work-5b15153d24d3f6.9133133015281083491509.png" },
+      {
+        "name": "Node",
+        "header": "Node.js",
+        "text": "Node.js is a runtime environment that allows you to run JavaScript on the server side. It is designed for building scalable network applications and is widely used for creating server-side applications, APIs, and microservices.",
+     "url":"https://png2.cleanpng.com/sh/9b7819c77230ae9ea85dd9ff8e9959e4/L0KzQYm3VsEzN6psjZH0aYP2gLBuTf5wbJYyguU2anH5ccTqkvlxfF54feRBZYKwg7rrhb10a6NuiOZybnewdrF1lL1vd5VqRdx8LUXlQoG6WcY5a2kASao7LkizSYaBV8QzOWY3UKo8OEWzRIm5UcUveJ9s/kisspng-node-js-javascript-server-side-scripting-font-node-js-5b203968c89182.8095874215288385048215.png" }
+  
+    ]
+  }

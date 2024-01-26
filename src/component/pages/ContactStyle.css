@@ -1,0 +1,32 @@
+.contactContainer {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 5vh;
+  background: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactForm {
+  background: rgba(255, 242, 0, 0.5);
+  height: auto;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+}
+form {
+  padding: 1vh 1vw;
+  height: auto;
+}
+textarea {
+  resize: none;
+  width: 100%;
+  margin-bottom: 0.5vh;
+  height: 8vh;
+}
+input {
+  width: 100%;
+  margin-bottom: 0.5vh;
+  height: 4vh;
+}

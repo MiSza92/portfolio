@@ -46,12 +46,7 @@ function Landing() {
             </span>
           </div>
           <div className="textBox right">Feel free to look around !</div>
-          <div className="textBox bottom">
-            Visit my GitHub aswell !{" "}
-            <a href="https://github.com/Synav92">
-              <img src={git} alt="git logo" />
-            </a>
-          </div>
+
           <div className="photoBox">
             <img src={ich} className="ich" />
           </div>

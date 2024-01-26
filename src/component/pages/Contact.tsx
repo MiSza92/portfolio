@@ -25,25 +25,18 @@ function Contact() {
       );
   };
   return (
-    <Animation>
-      <div className="contactContainer">
-        <div className="contactForm">
-          <form ref={form} onSubmit={sendEmail}>
-            <input type="text" name="from_name" placeholder="Name" required />
+    <div className="contactContainer">
+      <div className="contactForm">
+        <form ref={form} onSubmit={sendEmail}>
+          <input type="text" name="from_name" placeholder="Name" required />
 
-            <input
-              type="email"
-              name="from_email"
-              placeholder="Email"
-              required
-            />
+          <input type="email" name="from_email" placeholder="Email" required />
 
-            <textarea name="message" placeholder="Message" required />
-            <input type="submit" value="Send" />
-          </form>
-        </div>
+          <textarea name="message" placeholder="Message" required />
+          <input type="submit" value="Send" />
+        </form>
       </div>
-    </Animation>
+    </div>
   );
 }
 

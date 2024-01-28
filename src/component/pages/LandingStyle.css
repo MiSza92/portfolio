@@ -1,6 +1,6 @@
 .landingContainer {
   height: 100vh;
-  background: linear-gradient(19deg, #a1c4fd 38%, #c2e9fb 67%);
+  background: linear-gradient(19deg, #055c00 40%, #c2e9fb 60%);
   padding-top: 5vh;
   display: flex;
   flex-direction: column;
@@ -57,7 +57,7 @@
   }
 }
 .left {
-  width: 580px;
+  width: 26vw;
   margin-left: 15vw;
   margin-top: 5vw;
 }

@@ -2,16 +2,17 @@ import "./App.css";
 import NavBar from "./component/NavBar/NavBar";
 
 import Skills from "./component/pages/Skills";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import Landing from "./component/pages/Landing";
 import Projects from "./component/pages/Projects";
 import Contact from "./component/pages/Contact";
 
 function App() {
+  const location = useLocation();
   return (
     <>
       <NavBar />
-      <Routes>
+      <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Landing />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/projects" element={<Projects />} />

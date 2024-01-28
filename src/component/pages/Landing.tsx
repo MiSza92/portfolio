@@ -1,7 +1,6 @@
 import "./LandingStyle.css";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import ich from "../../assets/ichBW.png";
-import git from "../../assets/gitHubLogo.png";
+import ich from "../../assets/mitKippe.png";
 import { useEffect, useState } from "react";
 
 function Landing() {

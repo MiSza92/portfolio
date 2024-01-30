@@ -14,6 +14,7 @@
   display: flex;
   align-items: center;
   border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 form {
   padding: 1vh 1vw;
@@ -24,9 +25,18 @@ textarea {
   width: 100%;
   margin-bottom: 0.5vh;
   height: 8vh;
+  border-radius: 10px;
 }
 input {
   width: 100%;
   margin-bottom: 0.5vh;
   height: 4vh;
+  border-radius: 10px;
+}
+.btnSubmit {
+  width: 50% !important;
+  margin-left: 25%;
+  background-color: orange;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

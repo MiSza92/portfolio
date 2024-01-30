@@ -5,12 +5,7 @@ import { useEffect, useState } from "react";
 
 function Landing() {
   const [text] = useTypewriter({
-    words: [
-      "Web-Developer.",
-      "Pizza Maniac.",
-      "Cannabis Enthusiast.",
-      "Cocaine Lover.",
-    ],
+    words: ["Web-Developer.", "Pizza Maniac."],
     loop: 0,
     typeSpeed: 70,
     deleteSpeed: 10,

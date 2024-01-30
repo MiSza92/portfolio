@@ -39,6 +39,7 @@
   padding: 1vh;
   background: rgba(255, 255, 255, 0.5);
   cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .active {
   background: white !important;

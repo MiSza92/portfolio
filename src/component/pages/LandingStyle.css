@@ -1,6 +1,6 @@
 .landingContainer {
   height: 100vh;
-  background: linear-gradient(19deg, #055c00 40%, #c2e9fb 60%);
+  background: linear-gradient(19deg, #055c00 40%, #078f00 60%);
   padding-top: 5vh;
   display: flex;
   flex-direction: column;
@@ -17,36 +17,10 @@
   text-shadow: rgba(255, 149, 0) 0px 0px 15px;
   font-size: 4vh;
   position: relative;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  animation: slideDown 1s;
+}
 
-  animation: slideDown 1s;
-}
-.miniTextBox {
-  height: fit-content;
-  margin: 1vh 1vw;
-  padding: 1vh 1vw;
-  text-align: center;
-  border-radius: 25px;
-  border: orange solid 1vh;
-  background: rgba(0, 21, 255, 0.2);
-  color: orange;
-  text-shadow: rgba(255, 149, 0) 0px 0px 15px;
-  font-size: 4vh;
-  position: relative;
-  animation: slideDown 1s;
-}
-.miniTextBox img {
-  height: 10vh;
-}
-.miniIch {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-}
-.miniIch img {
-  height: 80vh;
-  position: absolute;
-  bottom: 0;
-}
 @keyframes slideDown {
   0% {
     transform: translateY(-80vw);
@@ -57,7 +31,7 @@
   }
 }
 .left {
-  width: 26vw;
+  width: 19.5vw;
   margin-left: 15vw;
   margin-top: 5vw;
 }

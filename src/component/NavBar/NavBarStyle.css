@@ -29,6 +29,6 @@
   padding-top: 0.3vh;
 }
 .navContainer .active {
-  background-color: green;
   border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

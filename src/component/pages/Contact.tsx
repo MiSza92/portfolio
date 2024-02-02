@@ -16,7 +16,7 @@ function Contact() {
         "2sQOv_mJ49MHLUQ6L"
       )
       .then(
-        (result) => {
+        () => {
           alert("Message sent successfully");
         },
         (error) => {
